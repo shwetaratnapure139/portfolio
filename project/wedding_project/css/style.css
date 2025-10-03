@@ -1,0 +1,718 @@
+
+:root{
+    --color1:#e69fb4;
+    --color2:#ffb703;
+    --color3:#a6a2a2;
+    --color4:#a1a7a9;
+}
+
+@font-face{
+   font-family:fonts; 
+   src:url("../fonts/lt_perfume/LTPerfume-2.ttf");
+
+
+}
+
+@font-face{
+    .italianno-regular {
+        font-family: "Italianno", cursive;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+}
+@font-face{
+    .fjalla-one-regular {
+        font-family: "Fjalla One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html,body{
+    min-width: 100%;
+    overflow-x: hidden;
+    
+}
+.head{
+    background-image: url(../image/illustration/bg-top@2x\ \(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bi-list{
+    background-color: #BB9D6B;
+    color: white;
+    
+
+}
+.navbar{
+    display: none;
+}
+.menu{
+    width: 80%;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+/* ***********************************End Of Header *************************************************************************************8 */
+.main-img{
+    background-image: url("../image/illustration/bg-couple.jpg");
+    width: 100%;
+    height:900px;
+    background-position: right center;
+    /* background-size: 80% 90%; */
+    background-size: cover;
+    margin-top: 20px;
+
+    animation:zoom ; 
+     animation-duration:8s;
+    animation-iteration-count: infinite; 
+    animation-timing-function:ease;
+ 
+
+}
+@keyframes zoom{
+    10%{
+       background-image: url(../image/illustration/beautiful-wedding-couple-UWR5LJX\ .jpg);
+       background-position:  center;
+       animation-duration:5s;
+    } 
+}
+
+.circle-logo1{
+padding-top: 480px;
+}
+.head-main{
+    font-family: fonts;
+    font-size: 50px;
+    text-align: center;
+    color: gray;
+    font-weight: bold;
+
+}
+
+.bg-para1{
+    text-align: center;
+    color:gray;
+    font-weight: bold;
+ 
+}
+
+/* ********************End of  main************************************************************************ */
+.section1-parent{
+    background-image: url(../image/illustration/circle-element-02@4x-300x215\ \(1\).png);
+    width: 100%;
+    margin-top: 40px;
+    background-position: center;
+    background-size: cover;
+  
+
+
+
+}
+.section1-parent2{
+    background-image: url(../image/illustration/circle-element@4x-249x300\ \(1\).png);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    
+}
+.sec1-img1{
+    border: 5px solid bisque;
+    border-radius: 50%;
+    margin-top: 90px;
+}
+.bi-suit-heart-fill{
+    color: var(--color1);
+}
+.sec1-img2{
+    border: 5px solid bisque;
+    border-radius: 50%;
+    margin-top: 90px;
+}
+.bi-suit-heart-fill{
+    color: var(--color1);
+}
+/* ***************************************** */
+.child-section2{
+    background-image: url("../image/illustration/ring-wedding.jpg");
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center center;
+    margin-top:40px;
+}
+.sec-date{
+    font-family: fonts;
+    position: relative;
+    top:200px;
+    text-align: center;
+    font-size: 80px;
+    color: white;
+    font-weight: bold;
+}
+.para-sec2{
+    text-align: center;
+    margin-top: 20px;
+    color: var(--color3);
+    font-weight: bold;
+    font-size: 40px;
+    text-wrap: balance;
+}
+.date-sec3{
+    background-image: url(../image/illustration/date-element.png);
+    background-position: center;
+    /* background-size: cover; */
+    height: 400px;
+    width: 100%;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+}
+.parent-sec-imgcircle{
+    line-height: 100px;
+}
+.day-sec3{
+    font-family: "Fjalla One", sans-serif;
+    font-size: 40px;
+    /* border: 2px solid yellow;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px; */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    /* padding-top: 20px; */
+    flex-direction: column-reverse;
+}
+.year-sec3{
+    border: 2px solid yellow;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    width: 100px;
+    margin: 0 auto;
+}
+.attendance{
+    color: var(--color3);
+    font-size: 20px;
+    font-family:"Fjalla One", sans-serif;
+}
+.sec3-button{
+    background-color: var(--color1);
+    color: #fff;;
+    width: 200px;
+    text-align: center;
+    align-content: center;
+    padding-top: 15px;
+    border-radius: none;
+}
+.sec3-button:hover{
+    color: white;
+    background-color: var(--color2);
+}
+/*  */
+.wedding-loaction{
+    background-image: url(../image/illustration/wedding-location.jpg);
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+   
+}
+.when{
+    font-family:fonts; 
+    margin-top: 20px;
+    font-weight: bold;
+}
+/*  */
+
+.gallary-head{
+    font-family:fonts; 
+    text-align: center;
+    font-size: 40px;
+    margin-top: 80px;
+}
+.head-sec5{
+    padding-top: 50px;
+}
+.head2-sec5{
+    padding-top: 20px;
+}
+.section5{
+    background-color: rgba(128, 128, 128, 0.171);
+}
+.gallary{
+    margin-top: 50px;
+    text-align: center;
+ 
+   
+  
+}
+
+.gallary-img1 {
+    width: 150px;
+    height: 100px;
+
+   
+  
+  }
+  
+  .gallary-img1:hover {
+ transition: 2s;
+transform: scale(1.03);  
+  }
+  .gallary-img2 {
+    width: 100px;
+    height: 100px;
+  
+  }
+  
+  .gallary-img2:hover {
+ transition: 2s;
+transform: scale(1.03);  
+  }
+  .gallary-img3{
+    width: 100px;
+    height: 200px;
+    margin-top: 10px;
+  
+  }
+  
+  .gallary-img3:hover {
+ transition: 2s;
+transform: scale(1.03);  
+  }
+  .gallary-img4 {
+    width: 150px;
+    height: 200px;
+    margin-top: 10px;
+  
+  }
+  
+  .gallary-img4:hover {
+ transition: 2s;
+transform: scale(1.03);  
+  }
+  .gallary-img5 {
+    width: 100px;
+    height: 200px;
+    margin-top: 10px;
+  
+  }
+  
+  .gallary-img5:hover {
+ transition: 2s;
+transform: scale(1.03);  
+  }
+  .gallary-img6 {
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+  
+  }
+  
+  .gallary-img6:hover {
+ transition:2s;
+transform: scale(1.03);  
+
+  }
+/* **************************************************************/
+.sec6-h1{
+    margin-top: 40px;
+    /* margin: 0 auto; */
+    text-wrap: balance;
+    text-align: center;
+}
+.sec6-input1{
+    border: 2px solid #DAA520;
+    border-top: 0;
+    background-color: #dde0e1;
+    border-left: 0;
+    border-right: 0;
+    text-align: center;
+}
+.sec6-input2{
+    border: 2px solid #DAA520;
+    border-top: 0;
+    background-color: #dde0e1;
+    border-left: 0;
+    border-right: 0;
+    text-align: center;
+}
+.select-op{
+    border: 2px solid #DAA520;
+    border-top: 0;
+    background-color: #747575;
+    border-left: 0;
+    border-right: 0;
+    text-align: center;
+}
+.sec6-form{
+    background-image: url(../image/illustration/flower-left@2x\ \(1\).png);
+   background-position: left center;
+   width: 100%; 
+  height: 400px; 
+ background-size: cover;
+}
+.sec6-button{
+    background-color: var(--color1);
+    color: #747575;
+    text-align: center;
+    margin-top: 40px;
+}
+.sec6-button:hover{
+    background-color: #DAA520;
+    color: white;
+}
+.sec6-head1{
+    font-family:fonts;
+    font-size: 40px;
+}
+.Registry{
+   font-family: fonts;
+   font-size: 40px;
+   margin-top: 40px;
+   padding-top: 40px;
+   text-align: center;
+ 
+
+}
+.sec7-para{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    color: #747575;
+}
+.section7{
+    background-color: #eef1f2;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:768px){
+    .sec8-img1{
+        width:200px;
+        height: 200px;
+      }
+      .sec8-img2{
+        width:200px;
+        height: 200px;
+      }
+      .sec8-img3{
+        width:200px;
+        height: 200px;
+      }
+      .sec8-img4{
+        width:200px;
+        height: 200px;
+      }
+      .sec8-img5{
+        width:200px;
+        height: 200px;
+      }
+     .gallary-img1{
+        width:300px;
+        height: 300px;
+     }
+     .gallary-img2{
+        width: 300px;
+        height: 300px;
+     }
+     .gallary-img3{
+        width: 300px;
+        height:500px ;
+     }
+     .gallary-img4{
+        width: 300px;
+        height: 500px;
+     }
+     .gallary-img5{
+        width: 300px;
+        height: 400px;
+     }
+     .gallary-img6{
+        width: 300px;
+        height: 400px;
+     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:992px){
+    /* .sec-img1-parent{
+        position: relative;
+        top:10px;
+        padding-top: 60px;
+    }
+    .sec-img2-parent{
+        position: relative;
+        bottom: 180px;
+
+   
+    }
+  .sec1-description2{
+    position: relative;
+    bottom: 90px;
+  
+  } */
+  .sec8-img1{
+    width:200px;
+    height: 200px;
+  }
+  .sec8-img2{
+    width:200px;
+    height: 200px;
+  }
+  .sec8-img3{
+    width:200px;
+    height: 200px;
+  }
+  .sec8-img4{
+    width:200px;
+    height: 200px;
+  }
+  .sec8-img5{
+    width:200px;
+    height: 200px;
+  }
+  .gallary-img1{
+    width: 300px;
+    height: 300px;
+  }
+  .gallary-img2{
+    width: 300px;
+    height: 300px;
+  }
+  .gallary-img3{
+  width: 300px;
+  height: 300px;
+  }
+  .gallary-img4{
+width: 300px;
+height: 300px;
+  }
+  .gallary-img5{
+    width: 300px;
+    height: 300px;
+      }
+      .gallary-img6{
+        width: 300px;
+        height: 300px;
+          }
+  .nav{
+    display: flex;
+    color: black;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    color: #747575;
+  }
+  .navbar{
+    display: flex;
+    font-size: 20px;
+   gap: 20px;
+   font-family: "Fjalla One", sans-serif;
+  }
+  .nav-item{
+    gap: 30px;
+    justify-content: space-between;
+  }
+  .nav-link1{
+    /* border: 1px solid var(--color2); */
+    border-bottom: 2px solid var(--color2);
+   color: #DAA520;
+    
+  }
+}
